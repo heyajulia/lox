@@ -1,6 +1,6 @@
 bin/lox: $(wildcard src/*.c src/*.h)
 	mkdir -p bin
-	clang -Wall -Werror -Wextra -Wpedantic $< -o bin/lox
+	clang -o bin/lox -Wall -Werror -Wextra -Wpedantic $(wildcard src/*.c)
 
 clean:
 	rm -rf bin

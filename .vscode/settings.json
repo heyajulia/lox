@@ -1,5 +1,8 @@
 {
   "files.associations": {
     ".clang-format": "yaml"
+  },
+  "[c]": {
+    "editor.tabSize": 2
   }
 }
